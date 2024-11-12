@@ -366,7 +366,7 @@
         });
       };
 
-      $(".main-menu").on("mouseover", "a", function (e) {
+      $(".main-menu").on("onclick", "a", function (e) {
         e.preventDefault();
         showSection($(this).attr("href"), true);
       });
